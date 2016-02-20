@@ -20,7 +20,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Julia Stewart Lowndes 
+  copyright: Julia Stewart Lowndes, <a href="http://startbootstrap.com">Freelancer theme</a> 
   location: Location
   social: Online
   credits: Credits
@@ -31,10 +31,12 @@ social:
     url: http://twitter.com/juliesquid
   - title: github
     url: http://github.com/jules32
+  - title: google
+    url: https://scholar.google.com/citations?user=qr9gICIAAAAJ&hl=en&authuser=1
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 
+  - line: NCEAS
   - line: Santa Barbara, California, USA
 
 # Credits content
