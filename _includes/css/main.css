@@ -25,6 +25,7 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+/* header text */
 h1,
 h2,
 h3,
