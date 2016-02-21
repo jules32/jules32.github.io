@@ -1,8 +1,8 @@
 ---
 layout: default
-modal-id: 4
-date: 2014-07-15
-img: game.png
+modal-id: 3
+date: 2016-02-18
+img: circus.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

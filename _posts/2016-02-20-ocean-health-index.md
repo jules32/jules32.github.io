@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2016-02-20
-img: ohi.png
+img: ocean.png
 alt: image-alt
 project-date: Current
 client: Start Bootstrap

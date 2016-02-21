@@ -1,8 +1,8 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: submarine.png
+date: 2016-02-15
+img: mrlowndes.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
