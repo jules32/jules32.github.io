@@ -1,9 +1,9 @@
 
-2016
+# 2016
 
 Borja A, Elliott M, Andersen JH, Berg T, Carstensen J, Halpern BS, Heiskanen A-S, Korpinen S, **Lowndes JSS**, Martin G and Rodriguez-Ezpeleta N (2016) Overview of Integrative Assessment of Marine Systems: The Ecosystem Approach in Practice. Front. Mar. Sci. 3:20. doi: 10.3389/fmars.2016.00020
 
-2015
+# 2015
 
 **Lowndes JSS**, Pacheco EJ, Best BD, Scarborough C, Longo C, Katona SK, Halpern BS. (2015) Best practices for assessing ocean health in multiple contexts using tailorable frameworks. PeerJ 3:e1503 https://doi.org/10.7717/peerj.1503
 
@@ -11,11 +11,11 @@ BS Halpern, M Frazier, J Potapenko, KS Casey, K Koenig, C Longo, **JSS Lowndes**
 
 BS Halpern, C Longo, **JS Lowndes**, BD Best, M Frazier, SK Katona, KM Kleisner, AA Rosenberg, C Scarborough, and ER Selig. 2015. Patterns and emerging trends in global ocean health. PloS One 10, no. 3 (2015): e0117863. doi: 10.1371/journal.pone.0117863. link
 
-2014
+# 2014
 
-****JS Stewart****, EL Hazen, SJ Bograd, JEK Byrnes, DG Foley, WF Gilly, BR Robison, and JC Field. 2014. Combined climate- and prey-mediated range expansion of Humboldt squid (Dosidicus gigas), a large marine predator in the California Current System. Global Change Biology 20(6):1832-1843. doi: 10.1111/gcb.12502. link
+**JS Stewart**, EL Hazen, SJ Bograd, JEK Byrnes, DG Foley, WF Gilly, BR Robison, and JC Field. 2014. Combined climate- and prey-mediated range expansion of Humboldt squid (Dosidicus gigas), a large marine predator in the California Current System. Global Change Biology 20(6):1832-1843. doi: 10.1111/gcb.12502. link
 
-2013
+# 2013
 
 R Rosa, C Yamashiro, U Markaida, P Rodhouse, CM Waluda, CA Salinas-Zavala, F Keyl, R O’Dor, **JS Stewart** and WF Gilly. Humboldt Squid Ecology. Advances in Squid Biology, Ecology and Fisheries, R Rosa, G Pierce, R O'Dor, Eds. Nova Science Publishers, 2013.
 
@@ -33,7 +33,7 @@ Smithsonian Magazine: 'The ten best ocean stories of 2012: year of the squid'
 
 JC Field, C Elliger, K Baltz, G Gillespie, WF Gilly, I Ruiz-Cooley, D Pearse, **JS Stewart**, W Matsubu and W Walker. 2013. Foraging ecology and movement patterns of the Humboldt squid in the California Current. Deep Sea Research II, 95: 37-51. link
 
-2012
+# 2012
 
 **JS Stewart**, EL Hazen, DG Foley, SJ Bograd, and WF Gilly. 2012. Marine predator migration during range expansion: Humboldt squid (Dosidicus gigas) in the California Current System. Marine Ecology Progress Series 471: 135-150. link
 
@@ -45,15 +45,15 @@ WF Gilly, LD Zeidberg, JAT Booth, **JS Stewart**, G Marshall, K Abernathy and LE
 
 AC Iles, TC Gouhier, BA Menge, **JS Stewart**, AJ Haupt, and M Lynch. 2012. Climate driven trends and ecological implications of event-scale upwelling in the California Current System. Global Change Biology 18: 783-796. link
 
-2011
+# 2011
 
 CB Woodson, JA Barth, OM Cheriton, MA McManus, JP Ryan, L Washburn, KN Carden, SB Cheng, J Fernandex, LE Garske, TC Gouhier, AJ Haupt, KT Honey, MF Hubbard, A Iles, L Kara, MC Lynch, B Mahoney, M Pfaff, ML Pinsky, MJ Robart, **JS Stewart**, SJ Teck, A True. 2011. Observations of internal wave packets propagating along-shelf in northern Monterey Bay. Geophys. Research Letters 38, L01605. link
 
-2007
+# 2007
 
 RK O'Dor, **JS Stewart**, and WF Gilly. 2007. Fin Flaps: key adaptation for habitat expansion in the squid, Dosidicus gigas? GLOBEC Report No. 24 (R.J. Olson and J.W. Young, Eds.). 19-21.
 
-2005
+# 2005
 
 **JS Stewart** and WF Gilly. 2005. Piscivorous behavior of a temperate cone snail, Conus californicus. Biol. Bull. 209: 146-153. link
 
