@@ -2,7 +2,7 @@
 layout: default
 modal-id: 5
 date: 2016-02-16
-img: submarine.png
+img: interests.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
