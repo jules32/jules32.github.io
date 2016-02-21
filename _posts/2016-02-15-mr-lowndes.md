@@ -7,6 +7,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: My husband Elliot Lowndes is a wildlife cameraman and photographer; check out his work at <a href="http://mrlowndes.com">mrlowndes.com</a>! When we are off on adventures together, I practice my skills as an amateur grip, porter, and voice-activated light stand. And I take photos of him taking photos.
 
 ---
