@@ -7,6 +7,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: Humboldt squid have been an important part of my life, I studied them for my PhD thesis and I met my husband <a href="https://mrlowndes.com/portfolio/light-in-the-deep-ocean/"> making a film about them</a>. I co-pioneered a program called 'Squids for Kids', taking squids to classrooms and teaching kids about marine science through topics relevant to big, open-water squid. My work has been featured in many news outlets, including the <a href="http://www.bbc.com/news/science-environment-17117200">BBC</a>,  <a href="https://www.newscientist.com/article/mg22730380-600-magical-morphing-jumbo-squid-are-taking-over-the-eastern-pacific/?utm_source=NSNS&utm_medium=SOC&utm_campaign=hoot&cmpid=SOC%7CNSNS%7C2015-GLOBAL-hoot">New Scientist</a>, and <a href="http://www.nature.com/news/squid-can-fly-to-save-energy-1.10060">Nature News</a>.
 
 ---
