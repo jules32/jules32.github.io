@@ -108,7 +108,7 @@ header .intro-text .name {
 @media(min-width:768px) {
     header .container {
         padding-top: 170px;
-        padding-bottom: 70px;
+        padding-bottom: 10px;
     }
 
     header .intro-text .name {
