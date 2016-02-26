@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
 }
 
+/* written text like about section */
 p {
     font-size: 20px;
 }
@@ -140,8 +141,9 @@ header .intro-text .name {
     }
 }
 
+/* navbar font */
 .navbar {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -163,8 +165,9 @@ header .intro-text .name {
     border: 0;
 }
 
+/* padding for page's sections */
 section {
-    padding: 100px 0;
+    padding: 40px 0;
 }
 
 section h2 {
