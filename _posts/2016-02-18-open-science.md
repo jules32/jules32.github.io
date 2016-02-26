@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2016-02-18
-img: circus.png
+img: opensci.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
