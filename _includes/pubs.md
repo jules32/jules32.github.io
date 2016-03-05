@@ -1,7 +1,8 @@
 
 ## 2016
 
-A Borja, M Elliott, JH Andersen, T Berg, J Carstensen, BS Halpern, A-S Heiskanen, S Korpinen, **JSS Lowndes**, G Martin and N Rodriguez-Ezpeleta. 2016. **Overview of Integrative Assessment of Marine Systems: The Ecosystem Approach in Practice**. *Frontiers in Marine Science*. 3:20. doi: 10.3389/fmars.2016.00020
+A Borja, M Elliott, JH Andersen, T Berg, J Carstensen, BS Halpern, A-S Heiskanen, S Korpinen, **JSS Lowndes**, G Martin and N Rodriguez-Ezpeleta. 2016. **Overview of Integrative Assessment of Marine Systems: The Ecosystem Approach in Practice**. *Frontiers in Marine Science*. 3:20. doi:  http://dx.doi.org/10.3389/fmars.2016.00020
+
 
 ## 2015
 

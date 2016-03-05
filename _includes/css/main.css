@@ -108,7 +108,7 @@ header .intro-text .name {
 /* header container size surrounding image */
 @media(min-width:768px) {
     header .container {
-        padding-top: 170px;
+        padding-top: 200px;
         padding-bottom: 10px;
     }
 
@@ -119,7 +119,7 @@ header .intro-text .name {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 15px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -133,7 +133,7 @@ header .intro-text .name {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 5px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
