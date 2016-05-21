@@ -8,6 +8,9 @@ meta_author: LastName FirstName
 # Google webmaster tools
 google_verify:
 
+# Google services https://desiredpersona.com/google-analytics-jekyll/
+google_analytics: UA-78110415-1
+
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
