@@ -1,5 +1,6 @@
 [***Google Scholar***](https://scholar.google.com/citations?user=qr9gICIAAAAJ&hl=en&authuser=1)
 
+- [**BS Halpern et al. 2016**, Chapter 7.8: Ocean Health Index for the world’s large marine ecosystems. In: IOC-UNESCO and UNEP. Large Marine Ecosystems: Status and Trends. United Nations Environment Programme, Nairobi, pp. 239–249.](http://www.geftwap.org/publications/lmes-technical-report/view)
 
 - [**A Borja et al. 2016**, *Frontiers in Marine Science*. Overview of Integrative Assessment of Marine Systems: The Ecosystem Approach in Practice.](http://dx.doi.org/10.3389/fmars.2016.00020)
 
