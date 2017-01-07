@@ -1,7 +1,6 @@
 **Bridging marine science with open data science.**  
 All materials are available online; workshops and tutorials can serve as self-paced courses.  
-See also the OHI-Science website for our open data science in action:  
-[ohi-science.org;](http://ohi-science.org) [ohi-science news](http://ohi-science.org/news)
+Also see our marine data science in action: [ohi-science.org/news.](http://ohi-science.org/news)
 <br>
 <br>
 
