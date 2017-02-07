@@ -12,9 +12,9 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 
 [**Resources for R and Data Science**  --  blog *2016-09-29*](http://ohi-science.org/news/Resources-for-R-and-Data-Science)  
 
-[**Software Carpentry Workshop**  --  2-day workshop at Oxford University *2016-07-12*](http://jules32.github.io/2016-07-12-Oxford/overview/)
+[**Software Carpentry: Reproducible Science with RStudio and GitHub**  --  2-day workshop at Oxford University *2016-07-12*](http://jules32.github.io/2016-07-12-Oxford/overview/)
 
-[**Software Carpentry Workshop**  --  2-day workshop at UC Santa Barbara *2016-04-15*](http://remi-daigle.github.io/2016-04-15-UCSB/overview/)
+[**Software Carpentry**  --  2-day workshop at UC Santa Barbara *2016-04-15*](http://remi-daigle.github.io/2016-04-15-UCSB/overview/)
 
 [**"Open science" and why it matters**  --  blog *2016-04-03*](http://jules32.github.io/resources/open-science/) 
 
