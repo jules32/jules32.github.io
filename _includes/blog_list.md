@@ -4,6 +4,8 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 <br>
 <br>
 
+[**Transforming how we approach marine science for management**  -- talk at EBM Tools Network Webinar *2017-05-02*]() [\[]()[**video**\]](https://www.openchannels.org/webinars/2017/using-ocean-health-index-integrated-tool-implementing-ebm-and-coastal-management)
+
 [**Making free websites with RStudio’s R Markdown**  --  tutorial at NCEAS *2016-12-14*](https://jules32.github.io/rmarkdown-website-tutorial/) 
 
 [**Better science in less time using data science tools**  --  talk at WSN Conference *2016-11-15*](https://jules32.github.io/opensci-talk/short#1)
