@@ -2,7 +2,11 @@
 
 - [**JS Stewart Lowndes et al. 2017**. *Nature Ecology & Evolution*. Our path to better science in less time using open data science tools.](https://www.nature.com/articles/s41559-017-0160)
 
-    - [NatureJobs article by Jeffrey Perkel: TechBlog: My digital toolbox: Julia Stewart Lowndes](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/)  
+    - [Nature article by Jeffrey Perkel: My digital toolbox: Julia Stewart Lowndes](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/)
+
+- [**BS Halpern et al. 2017**, *PLOS ONE*. Drivers and implications of change in global ocean health over the past 5 years.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178267) 
+
+- [**Daigle et al. 2017**, *PLOS ONE*. Incorporating public priorities in the Ocean Health Index: Canada as a case study.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178044) 
     
 - [**SK Katona et al. 2017**. *OpenChannels*. Navigating the seascape of ocean management: waypoints on the voyage toward sustainable use.](https://www.openchannels.org/literature/16817)
 
@@ -52,6 +56,14 @@
 
 
 [***Media about my work***]() 
+
+- [**My digital toolbox: Julia Stewart Lowndes**, 2017. Jeffrey Perkel, *Nature* ](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/)  
+
+- [**The Common Language of Conservation**, 2017. Michelle Nijhuis, *The Last Word On Nothing*](http://www.lastwordonnothing.com/2017/05/24/the-common-language-of-conservation/)
+
+- [**Awash in Sea of Data, Ecologists Turn to Open Access Tools**, 2017. John Rennie, *Quanta Magazine*](https://www.quantamagazine.org/awash-in-sea-of-data-ecologists-turn-to-open-access-tools-20170524/)
+
+- [**Ecologists Are Drowning in Sea of Data. These Tools Could Help**, 2017. John Rennie, *WIRED*](https://www.wired.com/2017/05/ecologists-drowning-sea-data-open-access-tools-help)
 
 - [**Magical morphing jumbo squid are taking over the eastern Pacific**, 2015. Michael Tennesen, *New Scientist*](https://www.newscientist.com/article/mg22730380-600-magical-morphing-jumbo-squid-are-taking-over-the-eastern-pacific/?utm_source=NSNS&utm_medium=SOC&utm_campaign=hoot&cmpid=SOC%7CNSNS%7C2015-GLOBAL-hoot) 
 
