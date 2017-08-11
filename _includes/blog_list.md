@@ -4,7 +4,7 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 <br>
 <br>
 
-[**Better science in less time**  —  website to accompany our *Nature Ecology & Evolution* publication  *2017-05-23*](https://jules32.github.io/rmarkdown-website-tutorial/) 
+[**Better science in less time**  —  website to accompany our *Nature Ecology & Evolution* publication  *2017-05-23*](http://ohi-science.org/betterscienceinlesstime/) 
 
 [**Better science in less time — open data science for marine science and management**  — talk at NCEAS Roundtable *2017-05-24* \[]()[**video**\]](https://www.youtube.com/watch?v=x4uzVAZvFCA)  
 
