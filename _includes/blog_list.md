@@ -4,6 +4,14 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 <br>
 <br>
 
+<!---
+[**Better science in less time using data science tools**  —  invited talk at Cal State University Monterey Bay *2017-12-04*]()
+
+[**Better science in less time using data science tools**  —  invited talk for DataONE webinar *2017-09-29*]()
+--->
+
+[**Better science in less time using data science tools: How open data science tools have improved our science**  —  invited talk at Cal Poly *2017-09-29*](https://docs.google.com/presentation/d/1mjpgEGsQUn4slhbLEMJI591B4cS3JU1o4vuLk6YWXfg/edit?usp=sharing)
+
 [**Better science in less time**  —  website to accompany our *Nature Ecology & Evolution* publication  *2017-05-23*](http://ohi-science.org/betterscienceinlesstime/) 
 
 [**Better science in less time — open data science for marine science and management**  — talk at NCEAS Roundtable *2017-05-24* \[]()[**video**\]](https://www.youtube.com/watch?v=x4uzVAZvFCA)  
