@@ -9,7 +9,7 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 
 --->
 
-[**Reproducible Research: Better science in less time**  —  invited talk for DataONE webinar *2017-10-10*](https://docs.google.com/presentation/d/141gf6dIkQsOXJ74xWEeMFYOQEL41lZydywRRf_4RBPE/edit)
+[**Reproducible Research: Better science in less time**  —  invited webinar for DataONE *2017-10-10*](https://docs.google.com/presentation/d/141gf6dIkQsOXJ74xWEeMFYOQEL41lZydywRRf_4RBPE/edit)
 
 [**Better science in less time using data science tools: How open data science tools have improved our science**  —  invited talk at Cal Poly *2017-09-29*](https://docs.google.com/presentation/d/1IkxMgJwtJ17n51ENGudmL9rRmhgh3njGB0ivrracZIg/edit?usp=sharing)
 
