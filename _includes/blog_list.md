@@ -6,6 +6,8 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 
 [**Better science in less time using open data science tools**  —  invited talk at Cal State University Monterey Bay *2017-12-04*](https://docs.google.com/presentation/d/1CVK8HRDubFU4UEduBK5q6JJebhbyVjB6SpTpjZI6q6Y/edit?usp=sharing)
 
+[**Software Carpentry**  —  2-day workshop at the Monterey Bay Aquarium Research Institute (MBARI) *2017-11-30*](https://jules32.github.io/2017-11-30-MBARI/) [(Intro to data science book)](http://ohi-science.org/data-science-training)
+
 [**Reproducible Research: Better science in less time**  —  invited webinar for DataONE *2017-10-10*](https://docs.google.com/presentation/d/141gf6dIkQsOXJ74xWEeMFYOQEL41lZydywRRf_4RBPE/edit)
 
 [**Better science in less time using data science tools: How open data science tools have improved our science**  —  invited talk at Cal Poly *2017-09-29*](https://docs.google.com/presentation/d/1IkxMgJwtJ17n51ENGudmL9rRmhgh3njGB0ivrracZIg/edit?usp=sharing)
