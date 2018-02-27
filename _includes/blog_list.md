@@ -4,6 +4,8 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 <br>
 <br>
 
+[**The power of open science: experience from the Ocean Health Index**  —  invited keynote talk at the Royal Belgian Institute of Natural Sciences, Brussels *2018-02-27*](https://docs.google.com/presentation/d/10KkXEv4r3wWtdKvB6RFOPe809eMNldODaRqQxn-jeME/edit?usp=sharing)
+
 [**Better science in less time using open data science tools**  —  invited talk at Cal State University Monterey Bay *2017-12-04*](https://docs.google.com/presentation/d/1CVK8HRDubFU4UEduBK5q6JJebhbyVjB6SpTpjZI6q6Y/edit?usp=sharing)
 
 [**Reproducible Research: Better science in less time**  —  invited webinar for DataONE *2017-10-10*](https://docs.google.com/presentation/d/141gf6dIkQsOXJ74xWEeMFYOQEL41lZydywRRf_4RBPE/edit)
