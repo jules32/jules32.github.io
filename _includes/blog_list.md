@@ -4,9 +4,11 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 <br>
 <br>
 
+[**The power of open science: experience from the Ocean Health Index**  —  invited seminar at Moss Landing Marine Laboratories, California, USA *2018-04-05*](https://docs.google.com/presentation/d/1frhNFr-Lf5KZCzJtYMRSim2-iZ72zAJZ__0YrqAdbs8/edit?usp=sharing)
+
 [**The power of open science: experience from the Ocean Health Index**  —  invited keynote talk at the Royal Belgian Institute of Natural Sciences, Brussels *2018-02-27*](https://docs.google.com/presentation/d/10KkXEv4r3wWtdKvB6RFOPe809eMNldODaRqQxn-jeME/edit?usp=sharing)
 
-[**Better science in less time using open data science tools**  —  invited talk at Cal State University Monterey Bay *2017-12-04*](https://docs.google.com/presentation/d/1CVK8HRDubFU4UEduBK5q6JJebhbyVjB6SpTpjZI6q6Y/edit?usp=sharing)
+[**Better science in less time using open data science tools**  —  invited seminar at Cal State University Monterey Bay *2017-12-04*](https://docs.google.com/presentation/d/1CVK8HRDubFU4UEduBK5q6JJebhbyVjB6SpTpjZI6q6Y/edit?usp=sharing)
 
 [**Software Carpentry**  —  2-day workshop at the Monterey Bay Aquarium Research Institute (MBARI) *2017-11-30*](https://jules32.github.io/2017-11-30-MBARI/) [(Intro to data science book)](http://ohi-science.org/data-science-training)
 
