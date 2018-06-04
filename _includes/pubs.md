@@ -57,6 +57,8 @@
 
 [***Media about my work***]() 
 
+- [**.rprofile: Julia Stewart Lowndes**, 2018. Sean Kross & Kelly O’Briant, *rOpenSci blog*](https://ropensci.org/blog/2018/02/09/rprofile-julia-stewart-lowndes/)
+
 - [**My digital toolbox: Julia Stewart Lowndes**, 2017. Jeffrey Perkel, *Nature* ](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/)  
 
 - [**The Common Language of Conservation**, 2017. Michelle Nijhuis, *The Last Word On Nothing*](http://www.lastwordonnothing.com/2017/05/24/the-common-language-of-conservation/)
