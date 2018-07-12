@@ -4,6 +4,8 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 <br>
 <br>
 
+[**What is the Ocean Health Index Toolbox and how can it help you?** — invited webinar at the Helmholz Open Science Institute *2018-07-12*](https://docs.google.com/presentation/d/1WKzbvF-XQl3lGzEc44fp8azssod9BcY2wMaAO0ZhFmk/edit?usp=sharing)  
+
 [**The power of open science: experience from the Ocean Health Index** — invited seminar at the National University of Samoa *2018-05-22*](https://docs.google.com/presentation/d/14TteMSsHbzcEXG9zs9_mAOv0ivURTeJd7PewkSVqX2M/edit?usp=sharing)  
 
 [**The power of open science: experience from the Ocean Health Index** — invited seminar at Moss Landing Marine Laboratories, California, USA *2018-04-05*](https://docs.google.com/presentation/d/1frhNFr-Lf5KZCzJtYMRSim2-iZ72zAJZ__0YrqAdbs8/edit?usp=sharing)
