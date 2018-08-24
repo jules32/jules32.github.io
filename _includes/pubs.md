@@ -57,6 +57,8 @@
 
 [***Media about my work***]() 
 
+- [**A toolkit for data transparency takes shape**, 2018. Jeffrey Perkel, *Nature*](https://www.nature.com/articles/d41586-018-05990-5)
+
 - [**.rprofile: Julia Stewart Lowndes**, 2018. Sean Kross & Kelly O’Briant, *rOpenSci blog*](https://ropensci.org/blog/2018/02/09/rprofile-julia-stewart-lowndes/)
 
 - [**My digital toolbox: Julia Stewart Lowndes**, 2017. Jeffrey Perkel, *Nature* ](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/)  
