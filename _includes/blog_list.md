@@ -4,6 +4,10 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 <br>
 <br>
 
+[**The power of open science: experience from the Ocean Health Index** — invited seminar at the Woods Hole Oceanographic Institution *2018-10-24*](https://docs.google.com/presentation/d/1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8/edit?usp=sharing)  
+
+[**Software Carpentry** — 2-day workshop at the Woods Hole Oceanographic Institution (WHOI) *2018-10-22*](https://jules32.github.io/2018-10-22-WHOI/) [(Intro to data science book)](http://ohi-science.org/data-science-training)
+
 [**What is the Ocean Health Index Toolbox and how can it help you?** — invited webinar at the Helmholz Open Science Institute *2018-07-12*](https://docs.google.com/presentation/d/1WKzbvF-XQl3lGzEc44fp8azssod9BcY2wMaAO0ZhFmk/edit?usp=sharing)  
 
 [**The power of open science: experience from the Ocean Health Index** — invited seminar at the National University of Samoa *2018-05-22*](https://docs.google.com/presentation/d/14TteMSsHbzcEXG9zs9_mAOv0ivURTeJd7PewkSVqX2M/edit?usp=sharing)  
