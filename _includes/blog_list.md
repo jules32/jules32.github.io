@@ -4,6 +4,9 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 <br>
 <br>
 
+[**My Fellowship with Mozilla: Building communities of practice around environmental open data science** — seminar at the National Center for Ecological Analysis and Synthesis *2018-11-07*](https://docs.google.com/presentation/d/1s6o4lqrn3zk2_UF2W-6A5orAT-bXREJ_mB6ghf-3eZQ/edit?usp=sharing)  
+
+
 [**The power of open science: experience from the Ocean Health Index** — invited seminar at the Woods Hole Oceanographic Institution *2018-10-24*](https://docs.google.com/presentation/d/1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8/edit?usp=sharing)  
 
 [**Software Carpentry** — 2-day workshop at the Woods Hole Oceanographic Institution (WHOI) *2018-10-22*](https://jules32.github.io/2018-10-22-WHOI/) [(Intro to data science book)](http://ohi-science.org/data-science-training)
