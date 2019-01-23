@@ -9,7 +9,7 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 
 [**The power of open science: experience from the Ocean Health Index** — invited seminar at the Woods Hole Oceanographic Institution *2018-10-24*](https://docs.google.com/presentation/d/1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8/edit?usp=sharing)  
 
-[**Software Carpentry** — 2-day workshop at the Woods Hole Oceanographic Institution (WHOI) *2018-10-22*](https://jules32.github.io/2018-10-22-WHOI/) [(Intro to data science book)](http://ohi-science.org/data-science-training)
+[**Software Carpentry** — 2-day workshop at the Woods Hole Oceanographic Institution (WHOI) *2018-10-22*](https://jules32.github.io/2018-10-22-WHOI/overview) [(Intro to data science book)](http://ohi-science.org/data-science-training)
 
 [**What is the Ocean Health Index Toolbox and how can it help you?** — invited webinar at the Helmholz Open Science Institute *2018-07-12*](https://docs.google.com/presentation/d/1WKzbvF-XQl3lGzEc44fp8azssod9BcY2wMaAO0ZhFmk/edit?usp=sharing)  
 
@@ -23,11 +23,13 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 
 [**Better science in less time using open data science tools**  —  invited seminar at Cal State University Monterey Bay *2017-12-04*](https://docs.google.com/presentation/d/1CVK8HRDubFU4UEduBK5q6JJebhbyVjB6SpTpjZI6q6Y/edit?usp=sharing)
 
-[**Software Carpentry** — 2-day workshop at the Monterey Bay Aquarium Research Institute (MBARI) *2017-11-30*](https://jules32.github.io/2017-11-30-MBARI/) [(Intro to data science book)](http://ohi-science.org/data-science-training)
+[**Software Carpentry** — 2-day workshop at the Monterey Bay Aquarium Research Institute (MBARI) *2017-11-30*](https://jules32.github.io/2017-11-30-MBARI/overview) [(Intro to data science book)](http://ohi-science.org/data-science-training)
 
 [**Reproducible Research: Better science in less time**  —  invited webinar for DataONE *2017-10-10*](https://docs.google.com/presentation/d/141gf6dIkQsOXJ74xWEeMFYOQEL41lZydywRRf_4RBPE/edit)
 
 [**Better science in less time using data science tools: How open data science tools have improved our science**  —  invited talk at Cal Poly *2017-09-29*](https://docs.google.com/presentation/d/1IkxMgJwtJ17n51ENGudmL9rRmhgh3njGB0ivrracZIg/edit?usp=sharing)
+
+[**Data Carpentry: Open and Reproducible Ecology** — 2-day workshop at the University of California Merced *2017-08-17*](https://snacktavish.github.io/2017-08-17-Yosemite/overview/) 
 
 [**Better science in less time**  —  website to accompany our *Nature Ecology & Evolution* publication  *2017-05-23*](http://ohi-science.org/betterscienceinlesstime/) 
 

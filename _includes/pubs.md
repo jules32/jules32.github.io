@@ -2,7 +2,7 @@
 
 - [**JS Stewart Lowndes et al. 2017**. *Nature Ecology & Evolution*. Our path to better science in less time using open data science tools.](https://www.nature.com/articles/s41559-017-0160)
 
-    - [Nature article by Jeffrey Perkel: My digital toolbox: Julia Stewart Lowndes](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/)
+- [Nature article by Jeffrey Perkel: My digital toolbox: Julia Stewart Lowndes](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/)
 
 - [**BS Halpern et al. 2017**, *PLOS ONE*. Drivers and implications of change in global ocean health over the past 5 years.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178267) 
 
@@ -56,6 +56,9 @@
 
 
 [***Media about my work***]() 
+[I also blog at]() [**ohi-science.org**](http://ohi-science.org) [and]() [**openscapes.org**](https://openscapes.org)
+
+- [**Mozilla announces 25 new fellows in openness, science, and tech policy**, 2018. Mozilla, *Medium*](https://blog.mozilla.org/blog/2018/08/21/mozilla-announces-25-new-fellows-in-openness-science-and-tech-policy/)
 
 - [**A toolkit for data transparency takes shape**, 2018. Jeffrey Perkel, *Nature*](https://www.nature.com/articles/d41586-018-05990-5)
 
