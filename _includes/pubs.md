@@ -2,7 +2,7 @@
 
 - [**JS Stewart Lowndes et al. 2017**. *Nature Ecology & Evolution*. Our path to better science in less time using open data science tools.](https://www.nature.com/articles/s41559-017-0160)
 
-- [Nature article by Jeffrey Perkel: My digital toolbox: Julia Stewart Lowndes](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/)
+    - [Nature article by Jeffrey Perkel: My digital toolbox: Julia Stewart Lowndes](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/)
 
 - [**BS Halpern et al. 2017**, *PLOS ONE*. Drivers and implications of change in global ocean health over the past 5 years.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178267) 
 

@@ -4,6 +4,9 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 <br>
 <br>
 
+[**Building communities of practice around environmental open data science** — talk at the Palo Alto University Rotary Club Meeting *2019-02-08*](https://docs.google.com/presentation/d/1LwHpLQvIVeDoTNlZfrzpiYTifY4P9rGuqVq9TS9iFPI/edit?usp=sharing) 
+
+
 [**My Fellowship with Mozilla: Building communities of practice around environmental open data science** — seminar at the National Center for Ecological Analysis and Synthesis *2018-11-07*](https://docs.google.com/presentation/d/1s6o4lqrn3zk2_UF2W-6A5orAT-bXREJ_mB6ghf-3eZQ/edit?usp=sharing)  
 
 
