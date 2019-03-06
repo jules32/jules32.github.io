@@ -4,6 +4,9 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 <br>
 <br>
 
+[**Transforming how we approach marine science for management** — Guest Lecture,  UCSB Conservation Ecology *2019-03-07*](https://docs.google.com/presentation/d/1UKo4kb6FOkZDqdDaMXN_jAVKkkYNs7BMiInMbXUJ_48/edit?usp=sharing) 
+
+
 [**Building communities of practice around environmental open data science** — talk at the Palo Alto University Rotary Club Meeting *2019-02-08*](https://docs.google.com/presentation/d/1LwHpLQvIVeDoTNlZfrzpiYTifY4P9rGuqVq9TS9iFPI/edit?usp=sharing) 
 
 
