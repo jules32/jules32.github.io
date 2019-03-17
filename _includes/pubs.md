@@ -55,8 +55,12 @@
     - [Editor’s Pick and cover article](http://www.biolbull.org/content/209/2.cover-expansion)
 
 
-[***Media about my work***]() 
+[***Media about my work***]()  
 [I also blog at]() [**ohi-science.org**](http://ohi-science.org) [and]() [**openscapes.org**](https://openscapes.org)
+
+- [**Julie Lowndes Wants the Force of Open Data Science to Be with You**, 2019. *NCEAS Portrait*](https://www.nceas.ucsb.edu/news/nceas-portrait-julie-lowndes)
+
+- [**Announcing Openscapes: Open Science is Better Science**, 2019. Mozilla, *Medium*](https://medium.com/read-write-participate/announcing-openscapes-open-science-is-better-science-debe520d3de5)
 
 - [**Mozilla announces 25 new fellows in openness, science, and tech policy**, 2018. Mozilla, *Medium*](https://blog.mozilla.org/blog/2018/08/21/mozilla-announces-25-new-fellows-in-openness-science-and-tech-policy/)
 

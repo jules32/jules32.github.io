@@ -4,7 +4,13 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 <br>
 <br>
 
-[**Transforming how we approach marine science for management** — Guest Lecture,  UCSB Conservation Ecology *2019-03-07*](https://docs.google.com/presentation/d/1UKo4kb6FOkZDqdDaMXN_jAVKkkYNs7BMiInMbXUJ_48/edit?usp=sharing) 
+[**R for science communication and culture (tentative title) — Keynote talk, useR Conference** *upcoming 2019-07-10*](http://user2019.r-project.org/)
+
+[**The power of open data science: experience from the Ocean Health Index and Openscapes — Department Seminar, Bren School of Environmental Science and Management, UCSB** *upcoming 2019-04-15*]()  
+
+[**Streamlined workflows in R** — talk at RLadies Santa Barbara *2019-03-14*](https://jules32.github.io/streamlined-workflows/#1)  
+
+[**Transforming how we approach marine science for management** — guest lecture,  UCSB Conservation Ecology *2019-03-07*](https://docs.google.com/presentation/d/1UKo4kb6FOkZDqdDaMXN_jAVKkkYNs7BMiInMbXUJ_48/edit?usp=sharing) 
 
 
 [**Building communities of practice around environmental open data science** — talk at the Palo Alto University Rotary Club Meeting *2019-02-08*](https://docs.google.com/presentation/d/1LwHpLQvIVeDoTNlZfrzpiYTifY4P9rGuqVq9TS9iFPI/edit?usp=sharing) 
