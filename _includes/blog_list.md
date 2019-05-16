@@ -6,6 +6,8 @@ Also see our marine data science in action: [ohi-science.org/news.](http://ohi-s
 
 [**R for science communication and culture (tentative title)** — Keynote talk, useR Conference *upcoming 2019-07-10*](http://user2019.r-project.org/)
 
+[**Building communities of practice around environmental open data science** ](https://zenodo.org/record/2695625#.XN2CsKZ7nOQ) [— talk at csv,conf,v4 in Portland, Oregon *2019-05-08*](https://csvconf.com/)
+
 [**How the Ocean Health Index enables better science in less time** — Department Seminar, Bren School of Environmental Science and Management, University of California at Santa Barbara *2019-04-15*](https://docs.google.com/presentation/d/1vqUJpdfjEzFzlh-cAPcIpUBwhFsaMSqyjDhQUjh6aR8/edit?usp=sharing)  
 
 [**Streamlined workflows in R** — talk at RLadies Santa Barbara *2019-03-14*](https://jules32.github.io/streamlined-workflows/#1)  
