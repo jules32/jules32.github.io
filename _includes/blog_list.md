@@ -1,21 +1,21 @@
-**Bridging marine science with open data science.**  
+**Bridging environmental science with open data science.**  
 All materials are available online; workshops and tutorials can serve as self-paced courses.  
-Also see our marine data science in action: [ohi-science.org/news.](http://ohi-science.org/news)
+I also blog at [ohi-science.org/news](http://ohi-science.org/news) & [openscapes.org/blog.](https://openscapes.org/blog)
 <br>
 <br>
 
-[**R for science communication and culture (tentative title)** — Keynote talk, useR Conference *upcoming 2019-07-10*](http://user2019.r-project.org/)
+[**R for science communication & culture** — invited keynote talk at useR! conference, Toulouse, France *upcoming 2019-07-10*](http://user2019.r-project.org/)
 
 [**Building communities of practice around environmental open data science** ](https://docs.google.com/presentation/d/1KXzPId1IvspsemIOmOUQEOqt8-Nw4Lhb2-Xvi_XZWeU/edit?usp=sharing) [— talk at csv,conf,v4 in Portland, Oregon *2019-05-08*](https://csvconf.com/) [(slides on Zenodo)](https://zenodo.org/record/2695625#.XN2CsKZ7nOQ)
 
-[**How the Ocean Health Index enables better science in less time** — Department Seminar, Bren School of Environmental Science and Management, University of California at Santa Barbara *2019-04-15*](https://docs.google.com/presentation/d/1vqUJpdfjEzFzlh-cAPcIpUBwhFsaMSqyjDhQUjh6aR8/edit?usp=sharing)  
+[**How the Ocean Health Index enables better science in less time** — invited seminar at the Bren School of Environmental Science and Management, University of California at Santa Barbara *2019-04-15*](https://docs.google.com/presentation/d/1vqUJpdfjEzFzlh-cAPcIpUBwhFsaMSqyjDhQUjh6aR8/edit?usp=sharing)  
 
 [**Streamlined workflows in R** — talk at RLadies Santa Barbara *2019-03-14*](https://jules32.github.io/streamlined-workflows/#1)  
 
-[**Transforming how we approach marine science for management** — guest lecture,  UCSB Conservation Ecology *2019-03-07*](https://docs.google.com/presentation/d/1UKo4kb6FOkZDqdDaMXN_jAVKkkYNs7BMiInMbXUJ_48/edit?usp=sharing) 
+[**Transforming how we approach marine science for management** — invited guest lecture at University of California at Santa Barbara Conservation Ecology course *2019-03-07*](https://docs.google.com/presentation/d/1UKo4kb6FOkZDqdDaMXN_jAVKkkYNs7BMiInMbXUJ_48/edit?usp=sharing) 
 
 
-[**Building communities of practice around environmental open data science** — talk at the Palo Alto University Rotary Club Meeting *2019-02-08*](https://docs.google.com/presentation/d/1LwHpLQvIVeDoTNlZfrzpiYTifY4P9rGuqVq9TS9iFPI/edit?usp=sharing) 
+[**Building communities of practice around environmental open data science** — invited talk at the Palo Alto University Rotary Club Meeting *2019-02-08*](https://docs.google.com/presentation/d/1LwHpLQvIVeDoTNlZfrzpiYTifY4P9rGuqVq9TS9iFPI/edit?usp=sharing) 
 
 
 [**My Fellowship with Mozilla: Building communities of practice around environmental open data science** — seminar at the National Center for Ecological Analysis and Synthesis *2018-11-07*](https://docs.google.com/presentation/d/1s6o4lqrn3zk2_UF2W-6A5orAT-bXREJ_mB6ghf-3eZQ/edit?usp=sharing)  
