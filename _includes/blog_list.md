@@ -4,7 +4,7 @@ I also blog at [ohi-science.org/news](http://ohi-science.org/news) & [openscapes
 <br>
 <br>
 
-[**R for science communication & culture** — invited keynote talk at useR! conference, Toulouse, France *upcoming 2019-07-10*](http://user2019.r-project.org/)
+[**R for better science in less time** — invited keynote talk at useR! conference, Toulouse, France *upcoming 2019-07-10*]()
 
 [**Building communities of practice around environmental open data science** ](https://docs.google.com/presentation/d/1KXzPId1IvspsemIOmOUQEOqt8-Nw4Lhb2-Xvi_XZWeU/edit?usp=sharing) [— talk at csv,conf,v4 in Portland, Oregon *2019-05-08*](https://csvconf.com/) [(slides on Zenodo)](https://zenodo.org/record/2695625#.XN2CsKZ7nOQ)
 
