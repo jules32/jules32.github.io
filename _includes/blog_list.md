@@ -4,6 +4,21 @@ I also blog at [ohi-science.org/news](http://ohi-science.org/news) & [openscapes
 <br>
 <br>
 
+
+<!---add Openscapes series, cohort 1?--->
+
+[**R for Excel Users** — Workshop at RStudio::conf(2020), San Francisco, California *upcoming 2020-01-27*]()
+
+[**R for better science in less time** - invited talk at the School of Aquatic and Fisheries Sciences, University of Washington, Seattle, Washington *upcoming 2019-11-21*]()
+
+[**R and friends for better science in less time in big (and small) team collaborations** - invited talk at the eScience Institute, Seattle, Washington *upcoming 2019-11-19*]()
+
+[**Building communities of practice around environmental open data science** - talk at FORCE11 Conference, Edinburgh, Scotland *upcoming 2019-10-16*]()
+
+[**Building communities of practice around environmental open data science** - talk at NCEAS Roundtable, Santa Barbara, California *upcoming 2019-10-02*]()
+
+[**Better science in less time: Lessons from the Ocean Health Index and Openscapes** - invited talk at the Tampa Bay Estuary Program Open Science Workshop, St Petersburg, Florida (remote) *2019-09-05*](https://docs.google.com/presentation/d/13JkwCiXjfZfNucAsDwHI6FdEvpOngCv50cjnT7HXJK8/edit?usp=sharing) 
+
 [**R for better science in less time** — opening keynote talk at useR! conference, Toulouse, France *2019-07-10*](https://jules32.github.io/useR-2019-keynote/#1) [(video, starts ~46:30)](https://www.youtube.com/watch?v=Z8PqwFPqn6Y)
 
 [**Building communities of practice around environmental open data science** ](https://docs.google.com/presentation/d/1KXzPId1IvspsemIOmOUQEOqt8-Nw4Lhb2-Xvi_XZWeU/edit?usp=sharing) [— talk at csv,conf,v4 in Portland, Oregon *2019-05-08*](https://csvconf.com/) [(slides on Zenodo)](https://zenodo.org/record/2695625#.XN2CsKZ7nOQ)

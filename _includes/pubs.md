@@ -1,12 +1,16 @@
 [***Google Scholar***](https://scholar.google.com/citations?user=qr9gICIAAAAJ&hl=en&authuser=1)
 
+- [**BS Halpern et al. 2019**, *Scientific Reports*. Recent pace of change in human impact on the world’s ocean.](https://www.nature.com/articles/s41598-019-47201-9) 
+
+- [**MJ Burgass et al. 2018**, *Regional Environmental Change*. A pan-Arctic assessment of the status of marine social-ecological systems.](https://link.springer.com/article/10.1007/s10113-018-1395-6)
+
 - [**JS Stewart Lowndes et al. 2017**. *Nature Ecology & Evolution*. Our path to better science in less time using open data science tools.](https://www.nature.com/articles/s41559-017-0160)
 
     - [Nature article by Jeffrey Perkel: My digital toolbox: Julia Stewart Lowndes](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/)
 
 - [**BS Halpern et al. 2017**, *PLOS ONE*. Drivers and implications of change in global ocean health over the past 5 years.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178267) 
 
-- [**Daigle et al. 2017**, *PLOS ONE*. Incorporating public priorities in the Ocean Health Index: Canada as a case study.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178044) 
+- [**RM Daigle et al. 2017**, *PLOS ONE*. Incorporating public priorities in the Ocean Health Index: Canada as a case study.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178044) 
     
 - [**SK Katona et al. 2017**. *OpenChannels*. Navigating the seascape of ocean management: waypoints on the voyage toward sustainable use.](https://www.openchannels.org/literature/16817)
 
@@ -58,7 +62,11 @@
 [***Media about my work***]()  
 [I also blog at]() [**ohi-science.org**](http://ohi-science.org) [and]() [**openscapes.org**](https://openscapes.org)
 
+- [**A Rising Tide: Funding Ocean Science**, 2019. Science Philanthropy Alliance, *Alliance blog post*.](https://www.sciencephilanthropyalliance.org/a-rising-tide-funding-ocean-science-alliance-blog-post/)
+
 - [**Julie Lowndes Wants the Force of Open Data Science to Be with You**, 2019. *NCEAS Portrait*](https://www.nceas.ucsb.edu/news/nceas-portrait-julie-lowndes)
+
+<!--- https://sbseasons.com/2019/02/women-in-science-photo-exhibition-at-moxi/ --->
 
 - [**Announcing Openscapes: Open Science is Better Science**, 2019. Mozilla, *Medium*](https://medium.com/read-write-participate/announcing-openscapes-open-science-is-better-science-debe520d3de5)
 
