@@ -1,5 +1,7 @@
 [***Google Scholar***](https://scholar.google.com/citations?user=qr9gICIAAAAJ&hl=en&authuser=1)
 
+- [**JS Stewart Lowndes et al. 2019**. *Nature Career Column*. Supercharge your research: a ten-week plan for open data science.](https://www.nature.com/articles/d41586-019-03335-4)
+
 - [**BS Halpern et al. 2019**, *Scientific Reports*. Recent pace of change in human impact on the world’s ocean.](https://www.nature.com/articles/s41598-019-47201-9) 
 
 - [**MJ Burgass et al. 2018**, *Regional Environmental Change*. A pan-Arctic assessment of the status of marine social-ecological systems.](https://link.springer.com/article/10.1007/s10113-018-1395-6)
