@@ -9,9 +9,11 @@ I also blog at [ohi-science.org/news](http://ohi-science.org/news) & [openscapes
 
 [**R for Excel Users** — Workshop at RStudio::conf(2020), San Francisco, California *upcoming 2020-01-27*]()
 
-[**R for better science in less time** - invited talk at the School of Aquatic and Fisheries Sciences, University of Washington, Seattle, Washington *upcoming 2019-11-21*]()
+[**R for better science in less time** — headline talk at Southern California R Users All Hands Meetup, Los Angeles, California *2019-11-23*](https://openscapes.github.io/slides/betterscience/socalR#1)
 
-[**R and friends for better science in less time in big (and small) team collaborations** - invited talk at the eScience Institute, Seattle, Washington *upcoming 2019-11-19*]()
+[**R for better science in less time: : Lessons from the Ocean Health Index and Openscapes** - invited talk at the School of Aquatic and Fisheries Sciences, University of Washington, Seattle, Washington *2019-11-21*](https://docs.google.com/presentation/d/1LA4EcnRxD11rjwbRh0hrjPG5J0dmiiuCbNaoQrz0XHU/edit?usp=sharing)
+
+[**R and friends for better science in less time in big (and small) team collaborations** - invited talk at the eScience Institute, Seattle, Washington *2019-11-19*](https://openscapes.github.io/slides/betterscience/escience#1)
 
 [**Building communities of practice around environmental open data science** - talk at FORCE11 Conference, Edinburgh, Scotland *upcoming 2019-10-16*]()
 
