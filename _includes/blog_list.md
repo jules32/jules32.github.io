@@ -8,20 +8,15 @@ I also blog at [ohi-science.org/news](http://ohi-science.org/news) & [openscapes
 <!---add Openscapes series, cohort 1?--->
 
 
-<!---
+[**Supercharging research with open data science and teamwork** — The workshop in environmental economics and data science (TWEEDS) *upcoming March 11, 2020*]()
 
-- Supercharging research with open data science and teamwork - upcoming March 11, 2020: [The workshop in environmental economics and data science (TWEEDS)](https://tweeds.io/) (30 minutes)
+[**R and teamwork for better science in less time** — German Centre for Integrative Biodiversity Research (iDiv), Leipzig, Germany. *upcoming March 16, 2020*]()
 
-- R and teamwork for better science in less time - upcoming March 16, 2020: [German Centre for Integrative Biodiversity Research (iDiv)](https://www.idiv.de/en/ydiv/courses_and_training.html), Leipzig, Germany (45 minutes)
+[**Supercharging research with open data science and teamwork** — Keynote at Open Science Conference, Berlin, Germany *upcoming March 11, 2020*]()
 
-- Supercharging research with open data science and teamwork - upcoming March 11, 2020: Keynote at [Open Science Conference](https://www.open-science-conference.eu/), Berlin, Germany (30 minutes)
+[**R and teamwork for better science in less time** — UMass Dartmouth's School for Marine Science & Technology (SMAST), New Bedford, Massachusetts *upcoming February 25, 2020*]()
 
-[**R and teamwork for better science in less time - upcoming February 25, 2020: UMass Dartmouth's School for Marine Science & Technology (SMAST), New Bedford, Massachusetts (45 minutes)
-
---->
-
-[**R and teamwork for better science in less time** - Southern California Coastal Water Research Project (SCCWRP), Costa Mesa, California *February 7, 2020*](https://openscapes.github.io/slides/betterscience/sccwrp#1) [(video)](https://vimeo.com/390086585)
-
+[**R and teamwork for better science in less time** — Southern California Coastal Water Research Project (SCCWRP), Costa Mesa, California *February 7, 2020*](https://openscapes.github.io/slides/betterscience/sccwrp#1) [(video)](https://vimeo.com/390086585)
 
 [**R for Excel Users** — Workshop at RStudio::conf(2020), San Francisco, California *2020-01-27*](https://rstudio-conf-2020.github.io/r-for-excel/)
 

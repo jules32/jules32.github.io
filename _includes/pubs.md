@@ -66,6 +66,13 @@
 [***Media about my work***]()  
 [I also blog at]() [**ohi-science.org**](http://ohi-science.org) [and]() [**openscapes.org**](https://openscapes.org)
 
+
+- [**Tech tools to make research more open and inclusive**, 2020. Kendall Powell, *Nature*](https://www.nature.com/articles/d41586-020-00216-z)
+
+- [**The coupling of innovation and open data science tools for science has been fascinating to me and hard to tease apart: An interview with Dr Julia Stewart Lowndes**, 2020. Alison Oliver, *Statistics Views*](https://www.statisticsviews.com/details/feature/11216365/The-coupling-of-innovation-and-open-data-science-tools-for-science-has-been-fasc.html)
+
+- [**Open Science and 'Star Wars'**, 2019. Mozilla, *Medium*](https://medium.com/read-write-participate/open-science-and-star-wars-2577b8081e8f)
+
 - [**A Rising Tide: Funding Ocean Science**, 2019. Science Philanthropy Alliance, *Alliance blog post*.](https://www.sciencephilanthropyalliance.org/a-rising-tide-funding-ocean-science-alliance-blog-post/)
 
 - [**Julie Lowndes Wants the Force of Open Data Science to Be with You**, 2019. *NCEAS Portrait*](https://www.nceas.ucsb.edu/news/nceas-portrait-julie-lowndes)
