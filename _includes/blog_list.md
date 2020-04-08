@@ -1,20 +1,19 @@
 **Bridging environmental science with open data science.**  
 All materials are available online; workshops and tutorials can serve as self-paced courses.  
-I also blog at [ohi-science.org/news](http://ohi-science.org/news) & [openscapes.org/blog.](https://openscapes.org/blog)
+I also blog at [openscapes.org/blog](https://openscapes.org/blog) & [ohi-science.org/news](http://ohi-science.org/news).
 <br>
 <br>
 
 
 <!---add Openscapes series, cohort 1?--->
 
+[***Title TBD***. Keynote at Earth Science Information Partners annual conference – *upcoming July 14, 2020*]()
 
-[**Supercharging research with open data science and teamwork** — The workshop in environmental economics and data science (TWEEDS) *upcoming March 11, 2020*]()
+[**R and teamwork for better science in less time** — German Centre for Integrative Biodiversity Research (iDiv), Leipzig, Germany. *April 21, 2020 (remote due to COVID)*]() 
 
-[**R and teamwork for better science in less time** — German Centre for Integrative Biodiversity Research (iDiv), Leipzig, Germany. *upcoming March 16, 2020*]()
+[**Supercharging research with open data science and teamwork** — Keynote at Open Science Conference, Berlin, Germany *March 11, 2020 (remote due to COVID)*](https://docs.google.com/presentation/d/16XtypOVGzuc50gYYsuUIhEkJubPdQztOYHmx9ObEiXg/edit?usp=sharing)
 
-[**Supercharging research with open data science and teamwork** — Keynote at Open Science Conference, Berlin, Germany *upcoming March 11, 2020*]()
-
-[**R and teamwork for better science in less time** — UMass Dartmouth's School for Marine Science & Technology (SMAST), New Bedford, Massachusetts *upcoming February 25, 2020*]()
+[**R and teamwork for better science in less time** — UMass Dartmouth's School for Marine Science & Technology (SMAST), New Bedford, Massachusetts *February 25, 2020*](https://openscapes.github.io/slides/betterscience/smast#1)
 
 [**R and teamwork for better science in less time** — Southern California Coastal Water Research Project (SCCWRP), Costa Mesa, California *February 7, 2020*](https://openscapes.github.io/slides/betterscience/sccwrp#1) [(video)](https://vimeo.com/390086585)
 
@@ -26,9 +25,9 @@ I also blog at [ohi-science.org/news](http://ohi-science.org/news) & [openscapes
 
 [**R and friends for better science in less time in big (and small) team collaborations** - invited talk at the eScience Institute, Seattle, Washington *2019-11-19*](https://openscapes.github.io/slides/betterscience/escience#1)
 
-[**Building communities of practice around environmental open data science** - talk at FORCE11 Conference, Edinburgh, Scotland *upcoming 2019-10-16*]()
+[**Building communities of practice around environmental open data science** - talk at FORCE11 Conference, Edinburgh, Scotland *2019-10-16*]()
 
-[**Building communities of practice around environmental open data science** - talk at NCEAS Roundtable, Santa Barbara, California *upcoming 2019-10-02*]()
+[**Building communities of practice around environmental open data science** - talk at NCEAS Roundtable, Santa Barbara, California *2019-10-02*]()
 
 [**Better science in less time: Lessons from the Ocean Health Index and Openscapes** - invited talk at the Tampa Bay Estuary Program Open Science Workshop, St Petersburg, Florida (remote) *2019-09-05*](https://docs.google.com/presentation/d/13JkwCiXjfZfNucAsDwHI6FdEvpOngCv50cjnT7HXJK8/edit?usp=sharing) 
 
