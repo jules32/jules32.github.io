@@ -7,6 +7,18 @@ I also blog at [openscapes.org/blog](https://openscapes.org/blog) & [ohi-science
 
 <!---add Openscapes series, cohort 1?--->
 
+
+[**Audience building for open source projects** - Workshop at Chan Zuckerberg Initiative Essential Open Source Software for Science Meeting - December 8, 2020](https://docs.google.com/presentation/d/1n4Z87Z8ax_pUUO98lHzsOGYHTtbshr_LB5JSznOiIW0/edit?usp=sharing)
+
+[**Normalizing talking about data** - CSCCE Data Science Special Interest Group Discussion - November 23, 2020](https://docs.google.com/presentation/d/15FsK37GQVvhL9zbnP1E1n9CEn-Xu5HvIe2FaIMpdC0s/edit?usp=sharing)
+
+[**R and teamwork for better science in less time** - ](https://openscapes.github.io/slides/betterscience/nwfsc#1) [NOAA Northwest Fisheries Science Center - November 19, 2020](https://www.fisheries.noaa.gov/event/nwfsc-monster-seminar-jam-julia-stewart-lowndes)
+
+[**How to empower researchers with open science through meeting analytical needs and supporting people**](https://docs.google.com/presentation/d/1AmnPV8eLQl9_0EuHQAqp7xBMHcUlcFkM30509BwJkMA/edit?usp=sharing) [- National Academies of Sciences, Engineering, and Medicine (NASEM) Roundtable on Aligning Incentives for Open Science - November 5, 2020](https://www.nationalacademies.org/our-work/roundtable-on-aligning-incentives-for-open-science) 
+
+[**Operationalizing better science in less time** - Integrating Open Science Tools into National Estuaries Programs Workflows Workshop - October 29, 2020](https://docs.google.com/presentation/d/1OHe4C2B9cGnT9niSguXwsWiK0M2sDsdeNjTOLWAgBX4/edit?usp=sharing)
+
+
 [**Entryways to open data science and the power of welcome** — Keynote at the Earth Science Information Partners annual conference – *July 16, 2020 (remote)*](https://esip.figshare.com/articles/Entryways_to_open_data_science_and_the_power_of_welcome/12654689/1)
 
 [**R and teamwork for better science in less time** — German Centre for Integrative Biodiversity Research (iDiv), Leipzig, Germany. *April 21, 2020 (remote)*](https://openscapes.github.io/slides/betterscience/idiv#1) 
