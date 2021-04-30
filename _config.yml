@@ -4,6 +4,8 @@ email: lowndes@nceas.ucsb.edu
 url: http://jules32.github.io/
 description: "Julia Stewart Lowndes is a marine data scientist and founder of Openscapes"
 meta_author: Lowndes Julia
+plugins:
+  - jekyll-seo-tag
 
 # Google webmaster tools
 google_verify:
