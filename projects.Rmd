@@ -27,6 +27,10 @@ library(tidyverse)
 - [**R for Excel Users**](https://rstudio-conf-2020.github.io/r-for-excel/) by Lowndes & Horst is for Excel users who want to add or integrate R and RStudio into their existing data analysis toolkit. Originally taught at the 2020 RStudio Conference, it is a friendly intro to becoming a modern R user, full of tidyverse, RMarkdown, GitHub, collaboration & reproducibility and written to be used as a reference, to teach, or as self-paced learning.
 - [**Tidy Data Illustrated Series**](/blog/2020/10/12/tidy-data) by Horst & Lowndes is artwork to illustrate why tidy data is so powerful for efficiency, reproducibility, and collaboration. 
 
+
+
+<!---
+
 ---
 
 # Ocean Health Index
@@ -36,7 +40,14 @@ library(tidyverse)
 - [**Our path to better science in less time using open data science tools**](https://www.nature.com/articles/s41559-017-0160) by Lowndes et al. 2017 describes how our open data science tranformed our team's approach to reproduciblity, collaboration, and communication.
 - [**OHI Global Assessments**](http://ohi-science.org/ohi-global/) are updated annually since 2012 with the best available data and knowledge. 
 
+
+--->
+
 ---
+
+# Consulting
+
+I consult with teams interested in open data science practices with their groups and communities. 
 
 <!---
 # Open communities
