@@ -2,8 +2,8 @@
 title: "Julia Stewart Lowndes, PhD"
 image: "images/lowndes-portrait-square.jpeg"
 links:
-  - label: Twitter
-    url: "https://twitter.com/juliesquid"
+  - label: Mastodon
+    url: "https://fosstodon.org/@juliesquid"
   - label: GitHub
     url: "https://github.com/jules32"
   - label: ORCID
@@ -27,7 +27,7 @@ I'm a marine ecologist championing kinder, better science in less time — for f
 
 # Experience
 
-- 2018-present: Founder & Co-Director, Openscapes. Senior Fellow, National Center for Ecological Analysis & Synthesis (NCEAS), University of California Santa Barbara (UCSB)
+- 2018-present: Founder & Director, Openscapes. Senior Fellow, National Center for Ecological Analysis & Synthesis (NCEAS), University of California Santa Barbara (UCSB)
 - 2018-2019: Mozilla Fellow
 - 2013-2019: Ocean Health Index science program lead, NCEAS, UCSB
 - 2012: PhD, Stanford University: Drivers and impacts of Humboldt squid in a changing climate

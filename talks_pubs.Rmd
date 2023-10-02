@@ -10,6 +10,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Talks
 
+- [Documenting things: openly for future us](https://openscapes.github.io/documenting-things) - Sept 19, 2023 — Posit conference (18 minutes)
+
+- [Communicating Impact: NASA Openscapes](https://docs.google.com/presentation/d/14iEGfbipt5HBlVyyf3kvjyxas4lBoRlbT8u8iFr2VNw/edit?usp=sharing) - March 22, 2023 - Julie Lowndes, Erin Robinson, Justin Rice. NASA ESDSWG Meeting, Baltimore, Maryland (15 minutes)
+
+- [Openscapes: supporting kinder science for future us](https://docs.google.com/presentation/d/1CkhsAB9SZrfa5ARvm7b0B48xlPWuOHioqlsa5jqD92A/edit?usp=sharing) - March 8, 2023 - Julie Lowndes. [Women in Data Science Conference](https://www.widsconference.org/), Stanford University ([video](https://www.youtube.com/watch?v=08siJkRUnQM&list=PLHAk3jHXWpxKGSFHyOu9pnSOP9AInU_O2&index=16)) (15 minutes); ([panel discussion](https://www.youtube.com/watch?v=AwBV2d0Au-o&list=PLHAk3jHXWpxKGSFHyOu9pnSOP9AInU_O2&index=17))
+
+-  [Hello Quarto: share • collaborate • teach • reimagine](https://mine.quarto.pub/hello-quarto/) — July 28, 2022: Keynote with Mine Çetinkaya-Rundel at RStudio Conference ([video](https://posit.co/keynotes/hello-quarto-share-collaborate-teach-reimagine/)) (60 minutes)
+
 - [Better Science for Future Us](https://docs.google.com/presentation/d/1HGw4P095-lblHiGQHXYidHiVysjrPxuojxTxKtE13vk/edit?usp=sharing) — July 12, 2021: Plenary at the inaugural Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology [SORTEE conference](https://www.sortee.org/events/) (30 minutes) ([video](https://osf.io/47req/))
 
 - [Open science as a movement and the art of Openscapes](https://docs.google.com/presentation/d/11-flAlM33E7GwkzlJuuzbs8icfTgYnG7UmDwDkgD49k/edit?usp=sharing) — June 5, 2021: Keynote with Dr. Allison Horst at [CascadiaR Conference](https://cascadiarconf.com/) (20 minutes) 
@@ -22,6 +30,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 # Publications
+
+- [Shifting institutional culture to develop climate solutions with Open Science](https://eartharxiv.org/repository/view/5948/) - 
+
+- Fredson & Lowndes
+
+-  Erin Robinson & Julia Stewart Lowndes. [The Openscapes Flywheel: A framework for managers to facilitate and scale inclusive Open science practices](https://eartharxiv.org/repository/view/4560/), preprint, 2022
+
+-  [The Openscapes Flywheel: A framework for managers to facilitate and scale inclusive Open science practices](https://eartharxiv.org/repository/view/4560/). Robinson & Lowndes 2022. *EarthArxiv* preprint.
 
 - [Open software means kinder science](https://blogs.scientificamerican.com/observations/open-software-means-kinder-science/). Lowndes 2019, *Scientific  American*.
 

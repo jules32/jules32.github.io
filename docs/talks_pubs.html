@@ -50,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -73,9 +74,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -457,8 +458,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
@@ -528,6 +529,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -769,10 +771,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     position: relative;
     margin-bottom: 2.5em;
     margin-top: 1.5em;
-  }
-
-  .figure img {
-    width: 100%;
   }
 
   .figure .caption {
@@ -1604,9 +1602,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -1618,6 +1628,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1717,6 +1752,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1739,7 +1776,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2196,7 +2233,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11.15/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2263,82 +2300,35 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 <h1 id="talks">Talks</h1>
 <ul>
-<li><p><a
-href="https://docs.google.com/presentation/d/1HGw4P095-lblHiGQHXYidHiVysjrPxuojxTxKtE13vk/edit?usp=sharing">Better
-Science for Future Us</a> — July 12, 2021: Plenary at the inaugural
-Society for Open, Reliable, and Transparent Ecology and Evolutionary
-Biology <a href="https://www.sortee.org/events/">SORTEE conference</a>
-(30 minutes) (<a href="https://osf.io/47req/">video</a>)</p></li>
-<li><p><a
-href="https://docs.google.com/presentation/d/11-flAlM33E7GwkzlJuuzbs8icfTgYnG7UmDwDkgD49k/edit?usp=sharing">Open
-science as a movement and the art of Openscapes</a> — June 5, 2021:
-Keynote with Dr. Allison Horst at <a
-href="https://cascadiarconf.com/">CascadiaR Conference</a> (20
-minutes)</p></li>
-<li><p><a
-href="https://docs.google.com/presentation/d/1AmnPV8eLQl9_0EuHQAqp7xBMHcUlcFkM30509BwJkMA/edit?usp=sharing">How
-to empower researchers with open science through meeting analytical
-needs and supporting people</a> - November 5, 2020. National Academies
-of Sciences, Engineering, and Medicine (NASEM) <a
-href="https://www.nationalacademies.org/our-work/roundtable-on-aligning-incentives-for-open-science">Roundtable
-on Aligning Incentives for Open Science</a> (<a
-href="https://docs.google.com/presentation/d/e/2PACX-1vSq8GlWfKNeW8SvAaqae8Uwg9TNKLO3SvdHZQulg75KnavcbA-R78JXtY3ogcEMNJzdxFxCptcSIVfS/pub?start=false&amp;loop=false&amp;delayms=3000">published
-slides</a>)</p></li>
-<li><p><a
-href="https://docs.google.com/presentation/d/1DjrMaEOw1F7zAIEXq3ZjiiyaqVAjydLyYww7huGfch8/edit?usp=sharing">Entryways
-to open data science and the power of welcome</a> - July 16, 2020:
-Plenary at <a
-href="https://2020esipsummermeeting.sched.com/event/cItS/plenary">Earth
-Science Information Partners Conference</a>, Remote (15 mins) (<a
-href="https://esip.figshare.com/articles/Entryways_to_open_data_science_and_the_power_of_welcome/12654689/1">Figshare</a>)
-(<a href="https://youtu.be/HAh7Xy9ReJo?t=1734">video, starts ~
-2:55</a>)</p></li>
-<li><p><a href="https://jules32.github.io/useR-2019-keynote/#1">R for
-better science in less time</a> - July 10, 2019: Opening Keynote, <a
-href="http://user2019.r-project.org/">useR Conference</a>, Toulouse,
-France (45 minutes) <a
-href="https://www.youtube.com/watch?v=Z8PqwFPqn6Y">(video, starts
-~46:30)</a></p></li>
+<li><p><a href="https://openscapes.github.io/documenting-things">Documenting things: openly for future us</a> - Sept 19, 2023 — Posit conference (18 minutes)</p></li>
+<li><p><a href="https://docs.google.com/presentation/d/14iEGfbipt5HBlVyyf3kvjyxas4lBoRlbT8u8iFr2VNw/edit?usp=sharing">Communicating Impact: NASA Openscapes</a> - March 22, 2023 - Julie Lowndes, Erin Robinson, Justin Rice. NASA ESDSWG Meeting, Baltimore, Maryland (15 minutes)</p></li>
+<li><p><a href="https://docs.google.com/presentation/d/1CkhsAB9SZrfa5ARvm7b0B48xlPWuOHioqlsa5jqD92A/edit?usp=sharing">Openscapes: supporting kinder science for future us</a> - March 8, 2023 - Julie Lowndes. <a href="https://www.widsconference.org/">Women in Data Science Conference</a>, Stanford University (<a href="https://www.youtube.com/watch?v=08siJkRUnQM&amp;list=PLHAk3jHXWpxKGSFHyOu9pnSOP9AInU_O2&amp;index=16">video</a>) (15 minutes); (<a href="https://www.youtube.com/watch?v=AwBV2d0Au-o&amp;list=PLHAk3jHXWpxKGSFHyOu9pnSOP9AInU_O2&amp;index=17">panel discussion</a>)</p></li>
+<li><p><a href="https://mine.quarto.pub/hello-quarto/">Hello Quarto: share • collaborate • teach • reimagine</a> — July 28, 2022: Keynote with Mine Çetinkaya-Rundel at RStudio Conference (<a href="https://posit.co/keynotes/hello-quarto-share-collaborate-teach-reimagine/">video</a>) (60 minutes)</p></li>
+<li><p><a href="https://docs.google.com/presentation/d/1HGw4P095-lblHiGQHXYidHiVysjrPxuojxTxKtE13vk/edit?usp=sharing">Better Science for Future Us</a> — July 12, 2021: Plenary at the inaugural Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology <a href="https://www.sortee.org/events/">SORTEE conference</a> (30 minutes) (<a href="https://osf.io/47req/">video</a>)</p></li>
+<li><p><a href="https://docs.google.com/presentation/d/11-flAlM33E7GwkzlJuuzbs8icfTgYnG7UmDwDkgD49k/edit?usp=sharing">Open science as a movement and the art of Openscapes</a> — June 5, 2021: Keynote with Dr. Allison Horst at <a href="https://cascadiarconf.com/">CascadiaR Conference</a> (20 minutes)</p></li>
+<li><p><a href="https://docs.google.com/presentation/d/1AmnPV8eLQl9_0EuHQAqp7xBMHcUlcFkM30509BwJkMA/edit?usp=sharing">How to empower researchers with open science through meeting analytical needs and supporting people</a> - November 5, 2020. National Academies of Sciences, Engineering, and Medicine (NASEM) <a href="https://www.nationalacademies.org/our-work/roundtable-on-aligning-incentives-for-open-science">Roundtable on Aligning Incentives for Open Science</a> (<a href="https://docs.google.com/presentation/d/e/2PACX-1vSq8GlWfKNeW8SvAaqae8Uwg9TNKLO3SvdHZQulg75KnavcbA-R78JXtY3ogcEMNJzdxFxCptcSIVfS/pub?start=false&amp;loop=false&amp;delayms=3000">published slides</a>)</p></li>
+<li><p><a href="https://docs.google.com/presentation/d/1DjrMaEOw1F7zAIEXq3ZjiiyaqVAjydLyYww7huGfch8/edit?usp=sharing">Entryways to open data science and the power of welcome</a> - July 16, 2020: Plenary at <a href="https://2020esipsummermeeting.sched.com/event/cItS/plenary">Earth Science Information Partners Conference</a>, Remote (15 mins) (<a href="https://esip.figshare.com/articles/Entryways_to_open_data_science_and_the_power_of_welcome/12654689/1">Figshare</a>) (<a href="https://youtu.be/HAh7Xy9ReJo?t=1734">video, starts ~ 2:55</a>)</p></li>
+<li><p><a href="https://jules32.github.io/useR-2019-keynote/#1">R for better science in less time</a> - July 10, 2019: Opening Keynote, <a href="http://user2019.r-project.org/">useR Conference</a>, Toulouse, France (45 minutes) <a href="https://www.youtube.com/watch?v=Z8PqwFPqn6Y">(video, starts ~46:30)</a></p></li>
 </ul>
 <h1 id="publications">Publications</h1>
 <ul>
-<li><p><a
-href="https://blogs.scientificamerican.com/observations/open-software-means-kinder-science/">Open
-software means kinder science</a>. Lowndes 2019, <em>Scientific
-American</em>.</p></li>
-<li><p><a
-href="https://www.nature.com/articles/d41586-019-03335-4">Supercharge
-your research: a ten-week plan for open data science</a>. Lowndes et
-al. 2019, <em>Nature</em>.</p></li>
-<li><p><a href="https://www.nature.com/articles/s41559-017-0160">Our
-path to better science in less time using open data science tools</a>.
-Lowndes et al. 2017, <em>Nature Ecology &amp; Evolution</em>.</p>
+<li><p><a href="https://eartharxiv.org/repository/view/5948/">Shifting institutional culture to develop climate solutions with Open Science</a> -</p></li>
+<li><p>Fredson &amp; Lowndes</p></li>
+<li><p>Erin Robinson &amp; Julia Stewart Lowndes. <a href="https://eartharxiv.org/repository/view/4560/">The Openscapes Flywheel: A framework for managers to facilitate and scale inclusive Open science practices</a>, preprint, 2022</p></li>
+<li><p><a href="https://eartharxiv.org/repository/view/4560/">The Openscapes Flywheel: A framework for managers to facilitate and scale inclusive Open science practices</a>. Robinson &amp; Lowndes 2022. <em>EarthArxiv</em> preprint.</p></li>
+<li><p><a href="https://blogs.scientificamerican.com/observations/open-software-means-kinder-science/">Open software means kinder science</a>. Lowndes 2019, <em>Scientific American</em>.</p></li>
+<li><p><a href="https://www.nature.com/articles/d41586-019-03335-4">Supercharge your research: a ten-week plan for open data science</a>. Lowndes et al. 2019, <em>Nature</em>.</p></li>
+<li><p><a href="https://www.nature.com/articles/s41559-017-0160">Our path to better science in less time using open data science tools</a>. Lowndes et al. 2017, <em>Nature Ecology &amp; Evolution</em>.</p>
 <ul>
-<li><a
-href="http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/">Nature
-article by Jeffrey Perkel: My digital toolbox: Julia Stewart
-Lowndes</a></li>
+<li><a href="http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/">Nature article by Jeffrey Perkel: My digital toolbox: Julia Stewart Lowndes</a></li>
 </ul></li>
-<li><p><a href="https://doi.org/10.7717/peerj.1503">Best practices for
-assessing ocean health in multiple contexts using tailorable
-frameworks</a>. Lowndes et al. 2015, <em>PeerJ</em>.</p></li>
-<li><p><a
-href="http://onlinelibrary.wiley.com/doi/10.1111/gcb.12502/abstract">Combined
-climate- and prey-mediated range expansion of Humboldt squid
-(<em>Dosidicus gigas</em>), a large marine predator in the California
-Current System</a>. Stewart et al. 2014, <em>Global Change
-Biology</em>.</p></li>
-<li><p><a
-href="http://www.sciencedirect.com/science/article/pii/S0967064512000860">Behavioral
-ecology of Jumbo squid (<em>Dosidicus gigas</em>): in relation to oxygen
-minimum zones</a>. Stewart et al. 2013, <em>Deep Sea Research
-II</em>.</p></li>
+<li><p><a href="https://doi.org/10.7717/peerj.1503">Best practices for assessing ocean health in multiple contexts using tailorable frameworks</a>. Lowndes et al. 2015, <em>PeerJ</em>.</p></li>
+<li><p><a href="http://onlinelibrary.wiley.com/doi/10.1111/gcb.12502/abstract">Combined climate- and prey-mediated range expansion of Humboldt squid (<em>Dosidicus gigas</em>), a large marine predator in the California Current System</a>. Stewart et al. 2014, <em>Global Change Biology</em>.</p></li>
+<li><p><a href="http://www.sciencedirect.com/science/article/pii/S0967064512000860">Behavioral ecology of Jumbo squid (<em>Dosidicus gigas</em>): in relation to oxygen minimum zones</a>. Stewart et al. 2013, <em>Deep Sea Research II</em>.</p></li>
 </ul>
 <p><br></p>
-<p>See also <a href="talks_pubs_complete.html">complete list of
-publications and talks</a></p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>See also <a href="talks_pubs_complete.html">complete list of publications and talks</a></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

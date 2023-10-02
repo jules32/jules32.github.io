@@ -50,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -73,9 +74,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -457,8 +458,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
@@ -528,6 +529,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -769,10 +771,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     position: relative;
     margin-bottom: 2.5em;
     margin-top: 1.5em;
-  }
-
-  .figure img {
-    width: 100%;
   }
 
   .figure .caption {
@@ -1604,9 +1602,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -1618,6 +1628,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1717,6 +1752,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1739,7 +1776,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2196,7 +2233,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11.15/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2258,74 +2295,45 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <ul>
 <li><a href="#openscapes" id="toc-openscapes">Openscapes</a></li>
 <li><a href="#teaching" id="toc-teaching">Teaching</a></li>
-<li><a href="#consulting" id="toc-consulting">Consulting</a></li>
+<li><a href="#ocean-health-index" id="toc-ocean-health-index">Ocean Health Index</a></li>
+<li><a href="#open-communities" id="toc-open-communities">Open communities</a></li>
 </ul>
 </nav>
 </div>
 <h1 id="openscapes">Openscapes</h1>
-<p><a href="https://openscapes.org"><strong>Openscapes</strong></a> is
-an approach for kinder, better science in less time. We approach open
-science as a spectrum, as a behavior change, and as a movement. We blog
-at <a href="https://openscapes.org/blog">openscapes.org/blog</a>.</p>
+<p><a href="https://openscapes.org"><strong>Openscapes</strong></a> is an approach for kinder, better science for future us. We approach open science as a spectrum, as a behavior change, and as a movement. We blog at <a href="https://openscapes.org/blog">openscapes.org/blog</a>.</p>
 <ul>
-<li><a href="https://openscapes.org/champions"><strong>Openscapes
-Champions Program</strong></a> is an open data science mentorship
-program for science teams</li>
-<li><a href="https://nasa-openscapes.github.io"><strong>NASA Openscapes
-Framework</strong></a> supports scientists using data from NASA
-Earthdata served from the Distributed Active Archive Centers (DAACs) as
-they migrate workflows to the cloud</li>
+<li><a href="https://openscapes.org/champions"><strong>Openscapes Champions Program</strong></a> is an open data science mentorship program for science teams</li>
+<li><a href="https://nasa-openscapes.github.io"><strong>NASA Openscapes Framework</strong></a> supports scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud</li>
 </ul>
-<!---
-<a align="left" href="https://openscapes.org/champions"><img src="images/openscapes_hex.jpg" width="50px"></a> 
---->
+<p><a align="center" href="https://openscapes.org/"><img src="images/openscapes_hex.jpg" width="80px"></a></p>
 <hr />
 <h1 id="teaching">Teaching</h1>
 <ul>
-<li><a href="https://rstudio-conf-2020.github.io/r-for-excel/"><strong>R
-for Excel Users</strong></a> by Lowndes &amp; Horst is for Excel users
-who want to add or integrate R and RStudio into their existing data
-analysis toolkit. Originally taught at the 2020 RStudio Conference, it
-is a friendly intro to becoming a modern R user, full of tidyverse,
-RMarkdown, GitHub, collaboration &amp; reproducibility and written to be
-used as a reference, to teach, or as self-paced learning.</li>
-<li><a href="/blog/2020/10/12/tidy-data"><strong>Tidy Data Illustrated
-Series</strong></a> by Horst &amp; Lowndes is artwork to illustrate why
-tidy data is so powerful for efficiency, reproducibility, and
-collaboration.</li>
+<li><a href="https://rstudio-conf-2020.github.io/r-for-excel/"><strong>R for Excel Users</strong></a> by Lowndes &amp; Horst is for Excel users who want to add or integrate R and RStudio into their existing data analysis toolkit. Originally taught at the 2020 RStudio Conference, it is a friendly intro to becoming a modern R user, full of tidyverse, RMarkdown, GitHub, collaboration &amp; reproducibility and written to be used as a reference, to teach, or as self-paced learning.</li>
+<li><a href="/blog/2020/10/12/tidy-data"><strong>Tidy Data Illustrated Series</strong></a> by Lowndes &amp; Horst is artwork to illustrate why tidy data is so powerful for efficiency, reproducibility, and collaboration.</li>
+<li><a href="blog/2022-05-27-github-illustrated-series/index.qmd"><strong>GitHub Illustrated Series</strong></a> — by Horst &amp; Lowndes is artwork to illustrate why GitHub is powerful for supporting, reusing, contributing, and failing safely.</li>
 </ul>
-<!---
-
----
-
-# Ocean Health Index
-
-[**The Ocean Health Index**](https://ohi-science.org) is a scientific framework used to measure how healthy oceans are. I was an OHI science program lead from 2013-2019 and helped amplify our transformation to open data science. 
-
-- [**Our path to better science in less time using open data science tools**](https://www.nature.com/articles/s41559-017-0160) by Lowndes et al. 2017 describes how our open data science tranformed our team's approach to reproduciblity, collaboration, and communication.
-- [**OHI Global Assessments**](http://ohi-science.org/ohi-global/) are updated annually since 2012 with the best available data and knowledge. 
-
-
---->
 <hr />
-<h1 id="consulting">Consulting</h1>
-<p>I consult with teams interested in open data science practices with
-their groups and communities.</p>
-<!---
-# Open communities
-
-I have built so much confidence from inclusive and welcoming open communities, who have been instrumental in my growth as an open science contributor.
-
-- [rOpenSci](https://ropensci.org) R package contributor
-- [RStudio](https://rstudio.com) collaborator
-- [Carpentries](https://thecarpentries.org) instructor
-- [Eco-Data-Science](https://eco-data-science.github.io) co-founder
-- [RLadies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/) co-founder
-- [Mozilla](https://blog.mozilla.org/en/mozilla/news/mozilla-announces-25-new-fellows-in-openness-science-and-tech-policy/) fellow
-
---->
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<h1 id="ocean-health-index">Ocean Health Index</h1>
+<p><a href="https://ohi-science.org"><strong>The Ocean Health Index</strong></a> is a scientific framework used to measure how healthy oceans are. I was an OHI science program lead from 2013-2019 and helped amplify our transformation to open data science.</p>
+<ul>
+<li><a href="https://ohi-science.org/projects/"><strong>ohi-science.org</strong></a> I helped design and maintain our science website to support global science communities.</li>
+<li><a href="https://www.nature.com/articles/s41559-017-0160"><strong>Our path to better science in less time using open data science tools</strong></a> by Lowndes et al. 2017 describes how our open data science tranformed our team’s approach to reproduciblity, collaboration, and communication.</li>
+<li><a href="http://ohi-science.org/ohi-global/"><strong>OHI Global Assessments</strong></a> are updated annually since 2012 with the best available data and knowledge.</li>
+</ul>
+<hr />
+<h1 id="open-communities">Open communities</h1>
+<p>I have built so much confidence from inclusive and welcoming open communities, who have been instrumental in my growth as an open science contributor.</p>
+<ul>
+<li><a href="https://www.meetup.com/rladies-santa-barbara/">RLadies Santa Barbara</a> co-founder</li>
+<li><a href="https://ropensci.org">rOpenSci</a> R package contributor</li>
+<li><a href="https://rstudio.com">Posit/RStudio</a> collaborator</li>
+<li><a href="https://thecarpentries.org">Carpentries</a> instructor</li>
+<li><a href="https://eco-data-science.github.io">Eco-Data-Science</a> co-founder</li>
+<li><a href="https://blog.mozilla.org/en/mozilla/news/mozilla-announces-25-new-fellows-in-openness-science-and-tech-policy/">Mozilla</a> fellow</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
