@@ -2,6 +2,7 @@
 title: "Julia Stewart Lowndes, PhD"
 image: "images/lowndes-portrait-square.jpeg"
 links:
+  
   - label: Mastodon
     url: "https://fosstodon.org/@juliesquid"
   - label: GitHub

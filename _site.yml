@@ -12,6 +12,8 @@ navbar:
       href: projects.html
     - text: "talks + pubs"
       href: talks_pubs.html
+    - text: "openscapes llc"
+      href: openscapes-llc.html
     - icon: fa fa-github
       href: https://github.com/jules32
     - icon: fa fa-twitter
