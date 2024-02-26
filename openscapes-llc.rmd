@@ -13,11 +13,11 @@ Openscapes (R) is a registered trademark.
 
 ------
 
-**1% FOR THE PLANET**
 
-<a align="center" href="https://www.onepercentfortheplanet.org/"><img src="images/1ftp_BusinessMember_Horizontal_FullColor.png" width="80px"></a>
+Openscapes LLC strongly believes that open science plays a critical role in climate solutions and justice. As a member of [1% for the Planet](https://www.onepercentfortheplanet.org/), we donate at least 1% of revenue each year to environmental non-profits.
 
-Openscapes LLC strongly believes that open science plays a critical role in climate solutions and justice. As a member of 1% for the Planet, we donate at least 1% of revenue each year to environmental non-profits.
+<a align="center" href="https://www.onepercentfortheplanet.org/"><img src="images/1ftp_BusinessMember_Horizontal_FullColor.png" width="100px"></a>
+
 
 We joined 1% for the Planet in 2024, and will prioritize our giving to address three key issue areas:
 
