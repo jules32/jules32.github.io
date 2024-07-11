@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Publications
 
--   [Shifting institutional culture to develop climate solutions with Open Science](https://eartharxiv.org/repository/view/5948/) - Lowndes et al, preprint.
+-   [Shifting institutional culture to develop climate solutions with Open Science](https://onlinelibrary.wiley.com/doi/10.1002/ece3.11341) - Lowndes et al, *Ecology & Evolution*, 2024.
 
 -   [Welcoming More Participation in Open Data Science for the Oceans](https://www.annualreviews.org/doi/abs/10.1146/annurev-marine-041723-094741). Alexa L Fredston, Julia S Stewart Lowndes, *Annual Review of Marine Science*, 2024.
 
