@@ -1,14 +1,16 @@
 ---
-title: Openscapes LLC
+title: Openscapes LLC ![](images/openscapes_hex.jpg)
 ---
 
-**Openscapes LLC** is a Small Woman-Owned Business formed in 2022 to support the [Openscapes](https://openscapes.org) open source community.
+**Openscapes LLC** was formed in 2022 to support the [Openscapes](https://openscapes.org) open source community.
 
-Openscapes LLC is registered in SAM.gov (UEI: TCKAB6AHWL25, CAGE: 9BCJ7).
+Openscapes LLC is a certified Women-Owned Small Business (WOSB) by the U.S. Small Business Administration (SBA). It is registered in SAM.gov (UEI: TCKAB6AHWL25, CAGE: 9BCJ7). 
 
 Openscapes ® is a registered trademark.
 
 <a align="center" href="https://openscapes.org/"><img src="images/openscapes_hex.jpg" width="80px"/></a>
+
+<!--- <a align="center"><img src="images/SBA-PoweredBy-2color_transparent-FINAL.png" width="80px"/></a> --->
 
 ------------------------------------------------------------------------
 
