@@ -4,22 +4,16 @@ title: Openscapes LLC ![](images/openscapes_hex.jpg)
 
 **Openscapes LLC** was formed in 2022 to support the [Openscapes](https://openscapes.org) open source community.
 
-Openscapes LLC is a certified Women-Owned Small Business (WOSB) by the U.S. Small Business Administration (SBA). It is registered in SAM.gov (UEI: TCKAB6AHWL25, CAGE: 9BCJ7). 
+Openscapes LLC is a certified Woman-Owned Small Business (WOSB) by the U.S. Small Business Administration (SBA). It is registered in SAM.gov (UEI: TCKAB6AHWL25, CAGE: 9BCJ7). 
 
 Openscapes ® is a registered trademark.
 
 <a align="center" href="https://openscapes.org/"><img src="images/openscapes_hex.jpg" width="80px"/></a>
 
 <!--- <a align="center"><img src="images/SBA-PoweredBy-2color_transparent-FINAL.png" width="80px"/></a> --->
-
 ------------------------------------------------------------------------
 
-Openscapes LLC strongly believes that open science plays a critical role in climate solutions and justice. As a member of [1% for the Planet](https://www.onepercentfortheplanet.org/), we donate at least 1% of revenue each year to environmental non-profits.
+Openscapes LLC strongly believes that open science plays a critical role in climate solutions and justice. We joined [1% for the Planet](https://www.onepercentfortheplanet.org/) in 2024, and as a member we donate at least 1% of revenue each year to environmental non-profits.
 
 <a align="center" href="https://www.onepercentfortheplanet.org/"><img src="images/1ftp_BusinessMember_Horizontal_FullColor.png" width="100px"/></a>
 
-We joined 1% for the Planet in 2024, and will prioritize our giving to address three key issue areas:
-
--   climate
--   conservation of public lands and waters
--   environmental justice
