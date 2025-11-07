@@ -10,6 +10,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Talks
 
+-   [Crossing the chasm: change & resilience within organizations. Diffusion of
+    Innovation theory in practice with NOAA Fisheries Openscapes](https://docs.google.com/presentation/d/1bclZQBu3QHxYSptg2lbchDz870PbkrDig-ZfQmoK7Wk/edit#slide=id.g34b3b339705_0_2152) - Lowndes & Holmes, Cloud Native Geospatial Conference, Snowbird Utah, May 1, 2025
+
 -   [Documenting things: openly for future us](https://openscapes.github.io/documenting-things) - Sept 19, 2023 — Posit conference (18 minutes)
 
 -   [Communicating Impact: NASA Openscapes](https://docs.google.com/presentation/d/14iEGfbipt5HBlVyyf3kvjyxas4lBoRlbT8u8iFr2VNw/edit?usp=sharing) - March 22, 2023 - Julie Lowndes, Erin Robinson, Justin Rice. NASA ESDSWG Meeting, Baltimore, Maryland (15 minutes)
