@@ -1,0 +1,11 @@
+---
+title: Openscapes Collaborative LTD ![](images/openscapes_hex.jpg)
+---
+
+**Openscapes Collaborative LTD** was formed in 2025 to support the [Openscapes](https://openscapes.org) open source community.
+
+Company number: 16560761
+
+Openscapes ® is a registered trademark.
+
+<a align="center" href="https://openscapes.org/"><img src="images/openscapes_hex.jpg" width="80px"/></a>
